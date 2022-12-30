@@ -23,5 +23,5 @@ jobs:
     - name: 'Run Azure webapp deploy action using publish profile credentials'
       uses: azure/webapps-deploy@users/shpraka/testing
       with:
-        app-name: node18windows
+        app-name: node18windows1230
         publish-profile: ${{ env.PUBLISH_PROFILE }}
