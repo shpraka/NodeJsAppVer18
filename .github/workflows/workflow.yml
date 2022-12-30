@@ -21,7 +21,7 @@ jobs:
       # npm run test --if-present
 
     - name: 'Run Azure webapp deploy action using publish profile credentials'
-      uses: azure/webapps-deploy@users/shpraka/testing-warn
+      uses: azure/webapps-deploy@users/shpraka/testing
       with:
         app-name: node18windows
         publish-profile: ${{ env.PUBLISH_PROFILE }}
