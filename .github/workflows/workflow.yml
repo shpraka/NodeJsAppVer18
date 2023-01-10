@@ -27,5 +27,5 @@ jobs:
       uses: azure/webapps-deploy@users/shpraka/testing
       with:
         app-name: eastusmdmlogerror
-        #resource-group-name: testshpraka
+        resource-group-name: testshpraka
         #publish-profile: ${{ env.PUBLISH_PROFILE }}
