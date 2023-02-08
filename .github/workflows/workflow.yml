@@ -23,8 +23,8 @@ jobs:
       # npm run test --if-present
 
     - name: 'Run Azure webapp deploy action using publish profile credentials'
-      uses: azure/webapps-deploy@testing
+      uses: azure/webapps-deploy@releases/v2.2.6
       with:
         app-name: appdiagserver-ant100
-        #resource-group-name: testshpraka
+        resource-group-name: testshpraka
         #publish-profile: ${{ env.PUBLISH_PROFILE }}
