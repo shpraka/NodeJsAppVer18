@@ -26,5 +26,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: testjan23
-        #resource-group-name: testshpraka
+        resource-group-name: testshpraka
         #publish-profile: ${{ env.PUBLISH_PROFILE }}
