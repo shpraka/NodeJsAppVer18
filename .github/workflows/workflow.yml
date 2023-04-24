@@ -23,7 +23,7 @@ jobs:
       # npm run test --if-present
 
     - name: 'Run Azure webapp deploy action using publish profile credentials'
-      uses: azure/webapps-deploy@releases/node_modules
+      uses: azure/webapps-deploy@releases/April
       with:
         app-name: testnodejs410
         #resource-group-name: testshpraka
