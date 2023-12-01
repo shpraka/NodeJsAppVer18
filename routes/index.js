@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'NodeJS', body: "27th November Clean xml3" });
+  res.render('index', { title: 'NodeJS', body: "1st Dec Logstream" });
 });
 
 module.exports = router;
